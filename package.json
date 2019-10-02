@@ -1,0 +1,22 @@
+{
+  "name": "stub-fetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "overridefetch.js",
+  "scripts": {
+    "compile": "webpack --config=webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "unfetch": "^4.1.0"
+  }
+}
